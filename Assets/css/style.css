@@ -1,0 +1,56 @@
+/* estilos que no pertenecen al template */
+
+.app-sidebar__user-avatar {
+  width: 50px;
+}
+
+.text-center {
+  display: flex;
+  gap: 4px;
+}
+
+.headerRegister,
+.header-primary {
+  background: #009688;
+  color: #fff;
+}
+
+.headerUpdate {
+  background: #007bff;
+  color: #fff;
+}
+
+.notBlock {
+  display: none;
+}
+.orenge{
+  background: black;
+}
+
+/*Estilos login*/
+#divLoading {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(254, 254, 255, .65);
+  z-index: 9999;
+  display: none;
+}
+
+#divLoading img {
+  width: 50px;
+  height: 50px;
+}
+
+.required {
+  color: red;
+  font-size: 13pt;
+  font-weight: bold;
+}
+.login-content .login-box.flipped .forget-form {
+  padding-top: 25px;
+}
